@@ -2,34 +2,43 @@
 <html>
     <head>
     <title>Seth's Awesome Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
     </head>
 
     <body>
 
     <header>
-        <h1>Seth Gibson</h1>
-        <ul>
-            <li><a href="./contact.html">Contact</a></li>
-            <li><a href="./portfolio.html">Portfolio</a></li>
-            <li><a href="./index.html">About</a></li>
-        </ul>
+        <h1 class="title-name">Seth Gibson</h1>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-link"><a class="nav-link-text" href="./contact.html">Contact</a></li>
+                <li class="nav-link"><a class="nav-link-text" href="./portfolio.html">Portfolio</a></li>
+                <li class="nav-link"><a class="nav-link-text" href="./index.html">About</a></li>
+            </ul>
+        </nav>
+
     </header>
 
-    <section>
-        <h2>About Me</h2>
-        <img src="./assets/images/cat.jpg" />
-        <p>Paragraph 1</p>
-        <<p>Paragraph 2</p>
-    </section>
+    <div id="main" class="clearfix">
+        <section>
+            <h2>About Me</h2>
+            <img id="profile_picture" src="./assets/images/profile_picture.jpg" />
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </section>
 
-    <aside>
-        <h2>Connect with Me</h2>
-        <ul>
-            <li><img src="./assets/images/github-128.png" alt="Github"/></li>
-            <li><img src="./assets/images/linkedin-128.png" alt="LinkedIn"></li>
-            <li><img src="./assets/images/stackoverflow-128.png" alt="Stack Overflow"></li>
-        </ul>
-    </aside>
+        <aside>
+            <h2>Connect with Me</h2>
+            <nav>
+                <ul>
+                    <li><img src="./assets/images/github-128.png" alt="Github"/></li>
+                    <li><img src="./assets/images/linkedin-128.png" alt="LinkedIn"></li>
+                    <li><img src="./assets/images/stackoverflow-128.png" alt="Stack Overflow"></li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
+
 
     <footer>
         <h4>&copy; Copyright 2017 Seth Gibson</h4>
